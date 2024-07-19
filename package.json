@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "netlify-cli": "^17.33.3",
+    "netlify-lambda": "^2.0.16",
+    "puppeteer-core": "^22.12.1",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "serverless-http": "^3.2.0",
+    "whatsapp-web.js": "pedroslopez/whatsapp-web.js.git#webpack-exodus"
+  }
+}
